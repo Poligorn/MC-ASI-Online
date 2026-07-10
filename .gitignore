@@ -1,0 +1,16 @@
+# Джарники модов (восстанавливаются packwiz'ом)
+mods/*.jar
+
+# Данные мира и игроков
+world/
+saves/
+playerdata/
+
+# Логи и мусор
+logs/
+crash-reports/
+*.log
+
+# Кэши лаунчеров и системы
+.mixin.out/
+.DS_Store
