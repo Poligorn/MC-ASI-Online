@@ -14,3 +14,7 @@ crash-reports/
 # Кэши лаунчеров и системы
 .mixin.out/
 .DS_Store
+.idea/vcs.xml
+.idea/modules.xml
+.idea/MC-ASI-Online.iml
+.idea/inspectionProfiles/profiles_settings.xml
