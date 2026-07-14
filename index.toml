@@ -1,37 +1,22 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".idea/MC-ASI-Online.iml"
-hash = "c81735b4bf0304f3c9a8c3d6dfd82d231a627b049c64aabb4a1d7d25a201cc3d"
-
-[[files]]
-file = ".idea/inspectionProfiles/profiles_settings.xml"
-hash = "6172c5997eeb3cd19c9ca2b5b97d6e2983cdd1fa60b2460d7bbb74055edcaa46"
-
-[[files]]
-file = ".idea/modules.xml"
-hash = "4977fce5fbc85e1ad117643616595f58cde51bdc7c04fda38a669c89024eda46"
-
-[[files]]
-file = ".idea/vcs.xml"
-hash = "6323e12648862a0a96fc0d7877672817d6cd91e2c2a3c3d78f1090db23c6e88e"
-
-[[files]]
-file = ".idea/workspace.xml"
-hash = "ef528bc89f629a0e12a3d134ba194e01ec72be710f3f857c490f88ce18662e34"
-
-[[files]]
 file = "kubejs/server_scripts/hello.js"
 hash = "56045d3fde191dbf660ebe60f2720d14538fc8e806e0208e7ed09af8408e7cd9"
 
 [[files]]
-file = "mods/aeroscapes-islands.pw.toml"
-hash = "9f379d1a339eaaa2ba35c7e05f07a7e26c0646882227a7555f63a0f102e9e42a"
+file = "mods/balm.pw.toml"
+hash = "b594dc1097013a09140b354465c2a85e5082f72a8b5c166ed8e7ebd60e30d187"
 metafile = true
 
 [[files]]
-file = "mods/balm.pw.toml"
-hash = "b594dc1097013a09140b354465c2a85e5082f72a8b5c166ed8e7ebd60e30d187"
+file = "mods/betterf3.pw.toml"
+hash = "c9aca350959a8936b054c7164fb55d789ab1e0d38cff2af48b78f70af2bc0c6d"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
 
 [[files]]
@@ -52,6 +37,11 @@ metafile = true
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "b6e0a61fea06f8d6d8e1672cf07b682625c4b74efd548d5093cd9c1fed167eec"
+metafile = true
+
+[[files]]
+file = "mods/keybind-atlas.pw.toml"
+hash = "84914fc3e4a0dc029068bc402fcd23c9c2059108b57de31b0bc7bbe7b2b10fa8"
 metafile = true
 
 [[files]]
