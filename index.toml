@@ -5,8 +5,21 @@ file = "kubejs/server_scripts/hello.js"
 hash = "56045d3fde191dbf660ebe60f2720d14538fc8e806e0208e7ed09af8408e7cd9"
 
 [[files]]
+file = "kubejs/server_scripts/waystone_privates.js"
+hash = "24d83c78f6fddde5818ae30e80445502f6ddd37bcf90972471e5527d839c327b"
+
+[[files]]
+file = "kubejs/server_scripts/waystones_remove.js"
+hash = "8bee890ed08144134266e6b955977197ba69ca76e40bc4e24414587b286e8d55"
+
+[[files]]
+file = "mods/aeroscapes-islands.pw.toml"
+hash = "9f379d1a339eaaa2ba35c7e05f07a7e26c0646882227a7555f63a0f102e9e42a"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
-hash = "b594dc1097013a09140b354465c2a85e5082f72a8b5c166ed8e7ebd60e30d187"
+hash = "5906ab9415bb5d894dc41bc4b0035d3c22e261877cf8578c2c4c45af8b4bb159"
 metafile = true
 
 [[files]]
@@ -17,6 +30,11 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
+metafile = true
+
+[[files]]
+file = "mods/connector.pw.toml"
+hash = "dfc42a26ddd76ee99cad6f023e0c14c82cbb91d2338f7eeac678a05e3e2a13fa"
 metafile = true
 
 [[files]]
@@ -35,6 +53,11 @@ hash = "67bb77eae0b644960be3b1074178ceb5d54facbb42f326981b9d94625238a54a"
 metafile = true
 
 [[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "a0b3083a1577130adb77867a6f8b6cf0c5bdd3c0c8b2995fa8b5fca323ed09a0"
+metafile = true
+
+[[files]]
 file = "mods/jade.pw.toml"
 hash = "b6e0a61fea06f8d6d8e1672cf07b682625c4b74efd548d5093cd9c1fed167eec"
 metafile = true
@@ -50,23 +73,18 @@ hash = "99bea71046529d65463fc12acb505ab363c91133ebbcc1d976e49a5d33150702"
 metafile = true
 
 [[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "f0c66fc8c3d9dbea2704b007e79125377d50484ff3a40c280b48707659209045"
+metafile = true
+
+[[files]]
 file = "mods/probejs.pw.toml"
 hash = "4bbc56f6983715ff095638eafab7ca8fee16f602656058b8456e3e8e7f2df918"
 metafile = true
 
 [[files]]
-file = "mods/ragdoll-reactions.pw.toml"
-hash = "89bd0f15795c70a1e06074e22bc5d80969abd48e1f540c79e3023cf8be51bef9"
-metafile = true
-
-[[files]]
 file = "mods/rhino.pw.toml"
 hash = "e55ca32b338a0e0540f4fec5170675d860566255ae0f45692a00cb4ebf2eb535"
-metafile = true
-
-[[files]]
-file = "mods/sable-ragdolls.pw.toml"
-hash = "bf3c84eff52457596d58a73882e72759804117f0731a0fde343cfd54d33e55ba"
 metafile = true
 
 [[files]]
@@ -77,9 +95,4 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
-metafile = true
-
-[[files]]
-file = "mods/waystones.pw.toml"
-hash = "2282d643312815eac969dc7df9904d80f190a476ec487ec7d501adda9ba60a39"
 metafile = true
