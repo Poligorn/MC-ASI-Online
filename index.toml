@@ -1,15 +1,15 @@
 hash-format = "sha256"
 
 [[files]]
-file = "kubejs/server_scripts/hello.js"
-hash = "56045d3fde191dbf660ebe60f2720d14538fc8e806e0208e7ed09af8408e7cd9"
+file = "kubejs/server_scripts/Dimensions/dimension_rings.js"
+hash = "fe0f0f7d4820c8fedf1a9ee9c83b41c5c0ac67eb9551a6832700929005dde553"
 
 [[files]]
-file = "kubejs/server_scripts/waystone_privates.js"
-hash = "24d83c78f6fddde5818ae30e80445502f6ddd37bcf90972471e5527d839c327b"
+file = "kubejs/server_scripts/Dimensions/dimension_wall.js"
+hash = "1c3f80fce88b744fd756a2b458c84d7f0eb88ee33af4a778775eac891a281fc9"
 
 [[files]]
-file = "kubejs/server_scripts/waystones_remove.js"
+file = "kubejs/server_scripts/Waystones/waystones_remove.js"
 hash = "8bee890ed08144134266e6b955977197ba69ca76e40bc4e24414587b286e8d55"
 
 [[files]]
@@ -96,3 +96,19 @@ metafile = true
 file = "mods/spark.pw.toml"
 hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
 metafile = true
+
+[[files]]
+file = "resourcepacks/ASI Локализация.zip"
+hash = "a3f42d9ed78125044544ff4675d45181d1c4615d8eb869ab6c474c2735c47505"
+
+[[files]]
+file = "resourcepacks/Create FTB Quests.zip"
+hash = "7b9c330b8ab96c240ccb4da619df4d76b6cbf68a37364fe06998af91e59e2628"
+
+[[files]]
+file = "resourcepacks/Create Style Interface 1.21.zip"
+hash = "ff589668f31a907ee2b6da5af21926577f9975d4a868e5cf316bbe22fa7d9d1b"
+
+[[files]]
+file = "resourcepacks/CreateSophBackpacks.zip"
+hash = "cb63a5a33c142ce588f1df020c7d4615f57f0e312064e03d4e7901060803905d"
