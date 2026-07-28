@@ -1,16 +1,36 @@
 hash-format = "sha256"
 
 [[files]]
-file = "kubejs/server_scripts/hello.js"
-hash = "56045d3fde191dbf660ebe60f2720d14538fc8e806e0208e7ed09af8408e7cd9"
+file = "kubejs/server_scripts/Dimensions/dimension_rings.js"
+hash = "fe0f0f7d4820c8fedf1a9ee9c83b41c5c0ac67eb9551a6832700929005dde553"
 
 [[files]]
-file = "kubejs/server_scripts/waystone_privates.js"
+file = "kubejs/server_scripts/Dimensions/dimension_wall.js"
+hash = "1c3f80fce88b744fd756a2b458c84d7f0eb88ee33af4a778775eac891a281fc9"
+
+[[files]]
+file = "kubejs/server_scripts/Dimensions/nether_rules.js"
+hash = "2b54b68f0b1becc55b1ea3134ba03614b1e72ba174d31c4e94dd961b5134daa6"
+
+[[files]]
+file = "kubejs/server_scripts/Waystones/waystone_privates.js"
 hash = "24d83c78f6fddde5818ae30e80445502f6ddd37bcf90972471e5527d839c327b"
 
 [[files]]
-file = "kubejs/server_scripts/waystones_remove.js"
+file = "kubejs/server_scripts/Waystones/waystones_remove.js"
 hash = "8bee890ed08144134266e6b955977197ba69ca76e40bc4e24414587b286e8d55"
+
+[[files]]
+file = "kubejs/server_scripts/Wild_Lands/danger_indicator.js"
+hash = "d5ce6abf74f496f6b0ab8217501a7ee239f530e6d47370f19877c9470df36d32"
+
+[[files]]
+file = "kubejs/server_scripts/Wild_Lands/distance_difficulty.js"
+hash = "15a6718b3c7be44ea6a1c2b4b1dfeb91d562bd5ceea3d35247881c18cc7d68f6"
+
+[[files]]
+file = "kubejs/server_scripts/Wild_Lands/distance_loot.js"
+hash = "48c576776669c6b21c0fc0fd81710191b33b1256255c4d6a87686244ae5d2ee9"
 
 [[files]]
 file = "mods/aeroscapes-islands.pw.toml"
