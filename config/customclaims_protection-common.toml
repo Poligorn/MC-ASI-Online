@@ -1,0 +1,70 @@
+[foreign_interaction]
+	#Temporary MVP limit for foreign peaceful claim block breaks per player runtime session.
+	# Default: 0
+	# Range: 0 ~ 100000
+	block_break_limit = 0
+	#Temporary MVP limit for foreign peaceful claim block placements per player runtime session.
+	# Default: 0
+	# Range: 0 ~ 100000
+	block_place_limit = 0
+	#Global runtime reset interval for foreign peaceful claim block break/place counters.
+	# Default: 3600
+	# Range: 1 ~ 604800
+	limit_reset_interval_seconds = 3600
+
+[claimrules]
+	#Cooldown for side-level /claimrules toggles such as explosions and Create machines.
+	# Default: 600
+	# Range: 0 ~ 86400
+	toggle_cooldown_seconds = 600
+
+[explosions]
+	#If true, CustomClaims filters block damage from explosions in claimed chunks with side explosion protection enabled.
+	custom_filter_enabled = true
+	#If true, CustomClaims does not filter explosion block damage in contested war chunks.
+	allow_in_war_chunks = true
+
+[big_cannons]
+	#If true, Create Big Cannons projectiles spawned from protected claimed chunks are cancelled.
+	block_projectile_launch_from_protected_claims = true
+	#If true, log Create Big Cannons projectiles blocked by CustomClaims explosion protection.
+	log_blocked_projectiles = true
+
+[storage_rules]
+	#If true, players can open storage on foreign peaceful claims.
+	allow_open_storage_on_foreign_claims = true
+	#If true, protected storage blocks cannot be broken on foreign peaceful claims.
+	protect_storage_from_breaking_on_peaceful_claims = true
+	#If true, protected storage blocks can be broken in contested chunks.
+	allow_storage_breaking_in_war_chunks = true
+	#Storage block ids protected from breaking in peaceful foreign claims.
+	protected_storage_blocks = ["minecraft:chest", "minecraft:trapped_chest", "minecraft:barrel", "minecraft:shulker_box"]
+
+[wither_rules]
+	disable_wither_summon_in_overworld = true
+	disable_wither_summon_in_end = true
+	disable_wither_summon_in_nether = false
+	log_blocked_wither_summons = true
+
+[villager_protection]
+	enable_villager_protection = true
+	protect_villagers_everywhere = true
+	protect_villagers_only_on_claims = false
+	protect_wandering_traders = true
+	prevent_player_damage = true
+	prevent_fire_damage = true
+	prevent_lava_damage = true
+	prevent_fall_damage = true
+	prevent_drowning_damage = true
+	prevent_suffocation_damage = true
+	prevent_explosion_damage = true
+	prevent_projectile_damage = true
+	prevent_void_damage = false
+	allow_zombie_damage = true
+	#If false, villager/trader protection is disabled in contested war chunks.
+	protect_villagers_in_war_chunks = false
+	#If true, player damage to villagers/traders is allowed in contested war chunks.
+	allow_player_damage_to_villagers_in_war_chunks = true
+	#If true, explosion damage to villagers/traders is allowed in contested war chunks.
+	allow_explosion_damage_to_villagers_in_war_chunks = true
+	clear_fire_on_blocked_damage = true

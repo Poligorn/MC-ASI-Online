@@ -1,0 +1,23 @@
+[xaero_overlay]
+	#War markers are sent only for wars visible to the player within this chunk radius.
+	# Default: 8
+	# Range: 0 ~ 32
+	visible_radius_chunks = 8
+	#If true, render the old CustomClaims client HUD overlay. Disabled by default while Xaero waypoints are used.
+	custom_overlay_enabled = false
+
+[xaero_waypoints]
+	#If true, visible war markers create Xaero temporary waypoints on compatible clients.
+	enabled = true
+	#Minimum seconds between refreshing the same Xaero temporary war waypoint.
+	# Default: 5
+	# Range: 1 ~ 300
+	refresh_interval_seconds = 5
+
+[xaero_map_war_start]
+	#If true, players with war start permission can start wars from the Xaero World Map right-click menu.
+	enabled = true
+	#Maximum Chebyshev chunk distance for starting a war from the Xaero World Map. Zero limits it to the player's current chunk.
+	# Default: 32
+	# Range: 0 ~ 32
+	max_distance_chunks = 32
