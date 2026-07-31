@@ -5125,6 +5125,14 @@ file = "kubejs/assets/kubejs/textures/item/pilot_license_second.png"
 hash = "0d089159b67ed1ad6e542e7e5235b67a35b97e7875e4d5d2266f58d0ec222faa"
 
 [[files]]
+file = "kubejs/data/asi/function/on_join.mcfunction"
+hash = "cd14ad5e068d3dbfb539df360d43e6977f2be1e4c2a693bdf62b8249b57958e2"
+
+[[files]]
+file = "kubejs/data/asi/structure/starter_island.nbt"
+hash = "5e8bc2dd01c6f479512bbdd0ee4449eb7332197c28e90c4e42418877769011ac"
+
+[[files]]
 file = "kubejs/data/curios/tags/item/license.json"
 hash = "c7d97c3d8b451c1e0e08ef78c820962aa767ac47e96bf3d5ada8fc5993d36bc1"
 
@@ -5189,6 +5197,22 @@ file = "kubejs/server_scripts/Recipes/waystones_remove.js"
 hash = "8bee890ed08144134266e6b955977197ba69ca76e40bc4e24414587b286e8d55"
 
 [[files]]
+file = "kubejs/server_scripts/Spawn/asi_island_config.js"
+hash = "682a528219125ffbb08333e0022f257a003b3776a811ce89e556cfb03c55801c"
+
+[[files]]
+file = "kubejs/server_scripts/Spawn/asi_island_debug.js"
+hash = "34a47816ce7f8020906191ff897bae97f4dbe1cb20ee39b2c2d942567a04b7c3"
+
+[[files]]
+file = "kubejs/server_scripts/Spawn/asi_island_place.js"
+hash = "bc1aa0d2b7df6f451a5a21aa99210917f4d2734bbef806feec74972d3a53ac2f"
+
+[[files]]
+file = "kubejs/server_scripts/Spawn/asi_island_spawn.js"
+hash = "6f7f75f976913dbf9ddc12b3d743a438faf284dc59cb6f322c77180a5abe4a0b"
+
+[[files]]
 file = "kubejs/startup_scripts/pilot_license.js"
 hash = "afbec2b71cbf2b28e986a95cfb8523a644ab23c8aee994818c7dd4b5d952c2fe"
 
@@ -5213,6 +5237,11 @@ hash = "793e70a07961b1670ba13dcdfe2c1cfb1379df52485adc2d3ba5db128e9536a6"
 metafile = true
 
 [[files]]
+file = "mods/amplified-nether.pw.toml"
+hash = "9efd2467725934e660f256346950d4e10ca44f034475ce8909a29fe0790dd5cc"
+metafile = true
+
+[[files]]
 file = "mods/another-furniture.pw.toml"
 hash = "de1607e5033b34125361d2dd0b9234e08b5951e9d739ee1ded3bb127a842665b"
 metafile = true
@@ -5234,7 +5263,7 @@ metafile = true
 
 [[files]]
 file = "mods/baguettelib.pw.toml"
-hash = "762fcd212e5049e6e8dcece301c4f33a17d3fc9b00744301c52c4695d7015523"
+hash = "cc360d86f76e729d3ebb7384cfbc933d8ffba694ba91360edeb846d61d14e561"
 metafile = true
 
 [[files]]
@@ -5255,6 +5284,11 @@ metafile = true
 [[files]]
 file = "mods/betterf3.pw.toml"
 hash = "c9aca350959a8936b054c7164fb55d789ab1e0d38cff2af48b78f70af2bc0c6d"
+metafile = true
+
+[[files]]
+file = "mods/blueprint.pw.toml"
+hash = "ead3aff0899e5bc61eb22fe0af86722b430f9e92990b3cd2720d5c2c1f66d023"
 metafile = true
 
 [[files]]
@@ -5298,6 +5332,11 @@ hash = "aa346562402cbf2d46cdd6b0cce661ba70bfbb3ca29f35aa8327b291a4e55860"
 metafile = true
 
 [[files]]
+file = "mods/clockwork_mod.pw.toml"
+hash = "e1583793eb62dd55042a1e0ec7154138d24a9c3bd2cf808c655baf7efa257105"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
@@ -5324,7 +5363,7 @@ metafile = true
 
 [[files]]
 file = "mods/corpse-x-curios-api-compat.pw.toml"
-hash = "2f6a345c8124dd87b60c8ebbbaa35d9efa27c2d1947357b3247ab98fae9db210"
+hash = "0f24d3112418b31cf86b84d0ded37decc9dbd50cc229cec632547458c01ffdca"
 metafile = true
 
 [[files]]
@@ -5375,6 +5414,11 @@ metafile = true
 [[files]]
 file = "mods/create-encased.pw.toml"
 hash = "4f3a481879dab177f7097e5c6102d37d3ee54f71ae9c3d8f16c8fd8a5b43ac4c"
+metafile = true
+
+[[files]]
+file = "mods/create-hostile-skies.pw.toml"
+hash = "4ea67fc953b722ecacba30a3005a4ddd6cdc245b5498b6bbc8a41ccee05372ed"
 metafile = true
 
 [[files]]
@@ -5469,12 +5513,17 @@ metafile = true
 
 [[files]]
 file = "mods/forgiving-void.pw.toml"
-hash = "b3e2786cd6d151651aa8ddc6548bc8e8bb7f67a10884f9570608ea11fc1197f6"
+hash = "ad797a4747adf0a547aff1f6bdb0c99d27b96324356fd0420fe9167e526d7185"
 metafile = true
 
 [[files]]
 file = "mods/fragmentum.pw.toml"
 hash = "85ba6f016d7447b4ba0013eab45ecfffd4349e99acd892d46c16bf0d2411f8cc"
+metafile = true
+
+[[files]]
+file = "mods/frame-changer.pw.toml"
+hash = "9a4208ccd7c3b192fcf70dc10d61ed4854f7dd169ab093fc18d9b51af0b91aeb"
 metafile = true
 
 [[files]]
@@ -5500,6 +5549,11 @@ metafile = true
 [[files]]
 file = "mods/guard-villagers.pw.toml"
 hash = "3843e6f8c47a3a62759c64a92d33e1527674581f7f7739378b3503ac4864dfc7"
+metafile = true
+
+[[files]]
+file = "mods/hordium.pw.toml"
+hash = "d1b17356cd09dc9f7d18a4402f09ecdb587f0f5c4b89f0348e74de5fcc3dd2b2"
 metafile = true
 
 [[files]]
@@ -5538,6 +5592,11 @@ hash = "84914fc3e4a0dc029068bc402fcd23c9c2059108b57de31b0bc7bbe7b2b10fa8"
 metafile = true
 
 [[files]]
+file = "mods/knight-lib.pw.toml"
+hash = "608ca3128f7ce83bc199a1687c0843c23999de0a29d6669be374e4588f5fde69"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
 metafile = true
@@ -5569,7 +5628,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootjs.pw.toml"
-hash = "9b32e1374a3d85ccdd4803c8932f72fbeb6357e69d895980e3f24e1974a07ca6"
+hash = "e42581d8eb65aa947dcbe6edb71b2082e84f31936b01f131758395d88dabc919"
 metafile = true
 
 [[files]]
@@ -5603,8 +5662,8 @@ hash = "6bc414cc0f2d4c078fe83f384d786343f701f371d657c5279b5b0df1595804bd"
 metafile = true
 
 [[files]]
-file = "mods/nether-floating-islands.pw.toml"
-hash = "88e80c63fdb11b97f7454db6ec953a4c9d1ac8d32502cd2fd79f9ff261740ada"
+file = "mods/nether-portal-remastered.pw.toml"
+hash = "0974878bc0faeef5055af7c2a482bfbdca9b2d99397a89f343d788222bd87858"
 metafile = true
 
 [[files]]
@@ -5640,6 +5699,16 @@ metafile = true
 [[files]]
 file = "mods/paragliders.pw.toml"
 hash = "c323e7a690fc87db51353a7106e275d89e3947826070c0b02c3a4717361dde63"
+metafile = true
+
+[[files]]
+file = "mods/piglin-proliferation.pw.toml"
+hash = "edfd95f82d0044f24a8f02e61cd827f120fab42d44fec3abfff0f7c7a13be228"
+metafile = true
+
+[[files]]
+file = "mods/pingit.pw.toml"
+hash = "0277f1fac091e2c3384029c39b309cfd260f88e12a795b33da65b058db710fff"
 metafile = true
 
 [[files]]
@@ -5689,7 +5758,7 @@ metafile = true
 
 [[files]]
 file = "mods/sky-villages.pw.toml"
-hash = "65ae5274b963d5b15e22cd3680b2ac6851f3fa5669b3914c496b45148a18a5a7"
+hash = "3c88d13ec3f4c2904befee38aa1a4fc27ffb0c322fb4186d82a53179125e43d1"
 metafile = true
 
 [[files]]
@@ -5799,7 +5868,7 @@ metafile = true
 
 [[files]]
 file = "mods/when-dungeons-arise.pw.toml"
-hash = "7e6948368276f2c49d5bccf52cbf80930d0daca75b4dfbc5530479f1d3f95cf8"
+hash = "485906ff55a5d6ad06070abb80663d6adadc3e4b32f8b52240d8596e7aaef9fa"
 metafile = true
 
 [[files]]
@@ -5844,7 +5913,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "7c9af919f3336775c35c63a075b374281d8a03e7f115bf1ee08a2ba1f7abf71d"
+hash = "589f831ffc5a0e26cb727ef22c028f87700ce2cb8e1da0eec2168fa5f37af00c"
 
 [[files]]
 file = "resourcepacks/ASI RU.zip"

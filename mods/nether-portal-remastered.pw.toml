@@ -1,0 +1,13 @@
+name = "Nether MASTER Remastered"
+filename = "nether_portal_remastered-1.1.2-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BuEI7nJs/versions/Q6lfAviz/nether_portal_remastered-1.1.2-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "73f4098066c698623af1664303efac5bb85260f24fd257ac583eaecdfc6b241cc68ee4e79645d9f76732e7bd83e0e5e3ae00f9f983bbc89295f65a33bd56ae7a"
+
+[update]
+[update.modrinth]
+mod-id = "BuEI7nJs"
+version = "Q6lfAviz"
