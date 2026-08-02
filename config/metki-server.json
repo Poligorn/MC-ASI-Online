@@ -1,0 +1,14 @@
+{
+  "maxActivePingsPerPlayer": 32,
+  "maxActivePingsTotal": 1024,
+  "pingRateLimit": 32,
+  "pingRateWindowMs": 3000,
+  "minimumPlayersForLimits": 8,
+  "maxPingDistance": 512,
+  "maxDescriptionLength": 256,
+  "trackedPingLifetimeMs": 15000,
+  "allowReactions": true,
+  "reactionRateLimit": 64,
+  "reactionRateWindowMs": 3000,
+  "maxReactionLength": 64
+}

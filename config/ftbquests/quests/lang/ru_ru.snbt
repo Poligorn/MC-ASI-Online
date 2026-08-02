@@ -1,0 +1,22 @@
+{
+	chapter.2AAF5935EA1DE955.title: "Initial research"
+	file.0000000000000001.title: "Aeronautics Journal"
+	quest.3364BA01A0AF91D8.quest_desc: [
+		"The Journals of the Founders"
+		""
+		"No one truly knows when — or why — the earth tore free from the world below, rising into the sky to form the floating islands I now call home."
+		""
+		"The old records are fragmented and few, but they all whisper of the same thing: three Founders. Pioneers who, in the age before the Ascension, kept private journals chronicling their craft, their machines, and their boldest inventions."
+		""
+		"Each is said to have mastered a single domain:"
+		""
+		"    📖 The Mechanist — keeper of gears, contraptions, and the secrets of motion."
+		"    🌤️ The Skyward — charter of the winds, the clouds, and the art of flight."
+		"    🗺️ The Wildlander — explorer of the untamed frontier and the dangers beyond the safe shores."
+		""
+		"If I can find these three journals, perhaps they hold the answers I've been searching for — and the knowledge to build something greater than any of us have ever known."
+		""
+		"Objective: Recover the three lost journals of the Founders."
+	]
+	task.3D9CC80F7EADD53D.title: "Finding Lost Diaries"
+}

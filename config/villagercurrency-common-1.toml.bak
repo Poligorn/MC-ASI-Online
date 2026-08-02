@@ -1,0 +1,10 @@
+#When enabled, villager trades that use the source currency as cost or reward will use the target currency instead.
+enabled = true
+#Item ID replaced in villager trade costs and rewards (default: minecraft:emerald).
+sourceCurrency = "minecraft:emerald"
+#Item ID of the replacement currency (default: numismatics:cog).
+targetCurrency = "numismatics:cog"
+#Conversion rate between source and target currency in both directions. Example: 1 emerald with rate 1 becomes 1 cog.
+# Default: 1
+# Range: > 1
+exchangeRate = 1
