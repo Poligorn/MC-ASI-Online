@@ -1,0 +1,707 @@
+{
+  "byBiome": {
+    "minecraft:plains": {
+      "start": 114.15,
+      "end": 909.42,
+      "density": 5.0,
+      "transitionSpeed": 0.3,
+      "color": 12638463,
+      "skyColor": 7907327,
+      "nightStart": 150.0,
+      "nightEnd": 800.0,
+      "nightDensity": 5.0,
+      "nightColor": 197379,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:old_growth_pine_taiga": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 8168447,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "aeroscapes:voidsea": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 9414640,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:river": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 8103167,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:taiga": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 8233983,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:desert": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 7254527,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:old_growth_birch_forest": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 8037887,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:sparse_jungle": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 7842047,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:jungle": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 7842047,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:bamboo_jungle": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 7842047,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:forest": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 7972607,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:savanna": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 7254527,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:crimson_forest": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 3343107,
+      "skyColor": 7254527,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:birch_forest": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 8037887,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:dark_forest": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 7972607,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:old_growth_spruce_taiga": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 8233983,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:swamp": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 7907327,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "aeroscapes:void_shores": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 10595298,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:lush_caves": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 8103167,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:windswept_forest": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 8233727,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "aeroscapes:deep_voidsea": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 8496376,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:stony_shore": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 8233727,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:end_barrens": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 10518688,
+      "skyColor": 0,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:windswept_gravelly_hills": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 8233727,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:end_midlands": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 10518688,
+      "skyColor": 0,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    }
+  },
+  "weatherByBiome": {
+    "minecraft:plains": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:old_growth_pine_taiga": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:river": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:taiga": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:desert": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:old_growth_birch_forest": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:sparse_jungle": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:jungle": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:forest": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:crimson_forest": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:savanna": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:birch_forest": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:dark_forest": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:old_growth_spruce_taiga": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:swamp": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "aeroscapes:void_shores": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:lush_caves": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "aeroscapes:voidsea": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:windswept_forest": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:bamboo_jungle": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "aeroscapes:deep_voidsea": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:stony_shore": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:end_barrens": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:windswept_gravelly_hills": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:end_midlands": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    }
+  },
+  "weather": {
+    "rain": {
+      "fog": 0.15,
+      "sky": 0.15,
+      "fogStart": 1.0,
+      "fogEnd": 1.0
+    },
+    "thunder": {
+      "fog": 0.18,
+      "sky": 0.18,
+      "fogStart": 1.0,
+      "fogEnd": 1.0
+    }
+  },
+  "stars": {
+    "enabled": true,
+    "amount": 30.118155,
+    "brightness": 1.0,
+    "twinkle": 0.35,
+    "dayStars": false,
+    "dayAmount": 100.0,
+    "dayBrightness": 1.0,
+    "dayTwinkle": 0.35
+  },
+  "fogEnabled": false,
+  "skyEnabled": true
+}

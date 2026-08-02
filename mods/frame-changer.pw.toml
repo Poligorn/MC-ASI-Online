@@ -1,0 +1,13 @@
+name = "Frame Changer"
+filename = "frame_changer-3.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/597XsRkb/versions/EhzqicSS/frame_changer-3.2.1.jar"
+hash-format = "sha512"
+hash = "f1e4f08b41548408eb1f624bd51151a3e201b6d29bf7677f10209d27ccea8242780ec5f180181f231039779e564735d0a4ac4ab8bfe10b836bf221091b14bc1e"
+
+[update]
+[update.modrinth]
+mod-id = "597XsRkb"
+version = "EhzqicSS"

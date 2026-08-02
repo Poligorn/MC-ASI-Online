@@ -1,0 +1,11 @@
+{
+  "activePresetId": "e1277aa7-f360-4cec-abb1-f440207cda36",
+  "presets": [
+    {
+      "id": "e1277aa7-f360-4cec-abb1-f440207cda36",
+      "name": "Default",
+      "scope": "DEFAULT",
+      "worldIds": []
+    }
+  ]
+}

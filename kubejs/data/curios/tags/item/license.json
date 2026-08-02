@@ -1,0 +1,9 @@
+{
+  "values": [
+    "kubejs:pilot_license_cadet",
+    "kubejs:pilot_license_second",
+    "kubejs:pilot_license_first",
+    "kubejs:pilot_license_captain",
+    "kubejs:pilot_license_admin"
+  ]
+}
