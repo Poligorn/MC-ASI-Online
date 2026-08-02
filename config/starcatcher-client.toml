@@ -34,10 +34,10 @@ enable_hit_sounds = true
 	tournament_x_offset = 0.0
 	# Default: 0.0
 	# Range: -10000.0 ~ 10000.0
-	tournament_y_offset = 0.0
+	tournament_y_offset = 130.0
 	# Default: 1.0
 	# Range: -10000.0 ~ 10000.0
-	tournament_scale = 1.0
+	tournament_scale = 0.7000000067055225
 	# Default: 0.0
 	# Range: -10000.0 ~ 10000.0
 	radar_x_offset = 0.0

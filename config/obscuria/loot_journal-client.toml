@@ -24,7 +24,7 @@ displayCapacity = 9
 # Default: 9
 # Range: 0 ~ 256
 queueSize = 9
-activeTheme = "Minimal"
+activeTheme = "Classic"
 #Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
 screenAnchor = "BOTTOM_RIGHT"
 #Allowed Values: NATURAL, UP, DOWN

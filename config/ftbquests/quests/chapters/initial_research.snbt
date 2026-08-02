@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "initial_research"
+	group: ""
+	icon: {
+		id: "modopedia:book"
+	}
+	id: "2AAF5935EA1DE955"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "3364BA01A0AF91D8"
+		tasks: [{
+			id: "3D9CC80F7EADD53D"
+			type: "checkmark"
+		}]
+		x: -0.5d
+		y: 0.0d
+	}]
+}

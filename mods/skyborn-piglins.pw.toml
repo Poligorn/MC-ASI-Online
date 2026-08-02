@@ -1,0 +1,13 @@
+name = "Skyborn Piglins"
+filename = "skybornpiglins-1.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bOllHHtA/versions/9yr4JOd3/skybornpiglins-1.0.0-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "627833cf7725e46e7745ad674c4681030921eea3ac5da11268e38896f3f66787b6523217ab0506b540a2aa4294819983fcb98fbf4384b726bf1f383d43c68a13"
+
+[update]
+[update.modrinth]
+mod-id = "bOllHHtA"
+version = "9yr4JOd3"
