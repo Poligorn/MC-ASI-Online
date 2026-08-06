@@ -5897,42 +5897,6 @@ file = "kubejs/server_scripts/Events/unify_steel.js"
 hash = "10876e7386bbe62e3b9707657cfcf7bf1ff1e767faf31a2a58a934d0b21c7c9c"
 
 [[files]]
-file = "kubejs/server_scripts/Recipes/ClockworkBarrelCrossbow_Recipe.js"
-hash = "261374c86a541b635b884cbe6c4625f630277ac1437ffbf8ffba7f8819edb0a8"
-
-[[files]]
-file = "kubejs/server_scripts/Recipes/ClockworkDrill_Recipe.js"
-hash = "ace223b5c9702c7058787465438d68e31a82624e3844a25fd77ae1533390af98"
-
-[[files]]
-file = "kubejs/server_scripts/Recipes/ClockworkFlamethrower_Recipe.js"
-hash = "69786758864bdab5a835d0219243e6af53ab2a8fc843234716893cd4574f801c"
-
-[[files]]
-file = "kubejs/server_scripts/Recipes/ClockworkScopeCrossbow_Recipe.js"
-hash = "157870dd650937e6733ad95ad01cf139209cadbb119dd81f0a8fc4c56a4a09e0"
-
-[[files]]
-file = "kubejs/server_scripts/Recipes/ClockworkWings_Recipe.js"
-hash = "9f8211ba055beda5b89b24f29a831441ae87d69bbc5306e38a3d28de444a9100"
-
-[[files]]
-file = "kubejs/server_scripts/Recipes/GoldenAeroliteTwig_Recipe.js"
-hash = "30a5ed31428435e607e6ee8e451373c37ef12b279144a57b6582705d41366413"
-
-[[files]]
-file = "kubejs/server_scripts/Recipes/PoitonSprayer_Recipe.js"
-hash = "9eaed7ef5fdf1e0e9190fa44c663de8e2e90dc447adab9eae2e0ae88dd7b1805"
-
-[[files]]
-file = "kubejs/server_scripts/Recipes/glider_recipe.js"
-hash = "440726226342d2e89a0af286cbd798bfeeb795f808e3b7d28a10f0174b539b8d"
-
-[[files]]
-file = "kubejs/server_scripts/Recipes/waystones_remove.js"
-hash = "8bee890ed08144134266e6b955977197ba69ca76e40bc4e24414587b286e8d55"
-
-[[files]]
 file = "kubejs/server_scripts/Spawn/asi_island_config.js"
 hash = "682a528219125ffbb08333e0022f257a003b3776a811ce89e556cfb03c55801c"
 
@@ -5947,6 +5911,42 @@ hash = "bc1aa0d2b7df6f451a5a21aa99210917f4d2734bbef806feec74972d3a53ac2f"
 [[files]]
 file = "kubejs/server_scripts/Spawn/asi_island_spawn.js"
 hash = "6f7f75f976913dbf9ddc12b3d743a438faf284dc59cb6f322c77180a5abe4a0b"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/ClockworkBarrelCrossbow_Recipe.js"
+hash = "261374c86a541b635b884cbe6c4625f630277ac1437ffbf8ffba7f8819edb0a8"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/ClockworkDrill_Recipe.js"
+hash = "ace223b5c9702c7058787465438d68e31a82624e3844a25fd77ae1533390af98"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/ClockworkFlamethrower_Recipe.js"
+hash = "69786758864bdab5a835d0219243e6af53ab2a8fc843234716893cd4574f801c"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/ClockworkScopeCrossbow_Recipe.js"
+hash = "157870dd650937e6733ad95ad01cf139209cadbb119dd81f0a8fc4c56a4a09e0"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/ClockworkWings_Recipe.js"
+hash = "9f8211ba055beda5b89b24f29a831441ae87d69bbc5306e38a3d28de444a9100"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/GoldenAeroliteTwig_Recipe.js"
+hash = "30a5ed31428435e607e6ee8e451373c37ef12b279144a57b6582705d41366413"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/PoitonSprayer_Recipe.js"
+hash = "9eaed7ef5fdf1e0e9190fa44c663de8e2e90dc447adab9eae2e0ae88dd7b1805"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/glider_recipe.js"
+hash = "440726226342d2e89a0af286cbd798bfeeb795f808e3b7d28a10f0174b539b8d"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/waystones_remove.js"
+hash = "8bee890ed08144134266e6b955977197ba69ca76e40bc4e24414587b286e8d55"
 
 [[files]]
 file = "kubejs/startup_scripts/pilot_license.js"
@@ -6463,6 +6463,11 @@ hash = "ce022d89091a6bed2af7f37c91523cc5d3a785b7dffd84b0fbc48381ec80c25b"
 metafile = true
 
 [[files]]
+file = "mods/polylib.pw.toml"
+hash = "74b981b04f079323585e4e7b5a7aa268edabd0b3e76f6f7cba6c4e7a7c1bb280"
+metafile = true
+
+[[files]]
 file = "mods/prickle.pw.toml"
 hash = "c99c5bac469e8d6ece5aae80f08635e3bbb8367f0c586b6288573c725faefe69"
 metafile = true
@@ -6500,6 +6505,11 @@ metafile = true
 [[files]]
 file = "mods/shatterbyte-lib.pw.toml"
 hash = "3f552bbdc42f07fd7d5695ced1d27d774af63cff5460be45817939e5f8e4f9de"
+metafile = true
+
+[[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "cca4b10598ae8cedcc2a6531a422453d624ceb4d1de1163ce46255415ccda045"
 metafile = true
 
 [[files]]
@@ -6625,6 +6635,11 @@ metafile = true
 [[files]]
 file = "mods/worldedit.pw.toml"
 hash = "de999f6cc4c2f344e324b4f331fa9767844c31463c6e8066fcd67b613338ab8c"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap-world-map-waystones-compatibility-forge.pw.toml"
+hash = "637bc567eb5260d55ce89e6471c31e4369d454607f3d6f40139f7f7bdef90af9"
 metafile = true
 
 [[files]]
