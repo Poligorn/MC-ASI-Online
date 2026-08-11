@@ -6438,6 +6438,11 @@ hash = "2dc5bf4118f932f3d328b163e1b97972964ac33e82c4eb89f2f122ef0661de7e"
 metafile = true
 
 [[files]]
+file = "mods/panoptic.pw.toml"
+hash = "3cdaaa6a08310ee5ca04f9cc6f5752fd5d3b918538732ef7a7a36bd9d3998361"
+metafile = true
+
+[[files]]
 file = "mods/paragliders.pw.toml"
 hash = "c323e7a690fc87db51353a7106e275d89e3947826070c0b02c3a4717361dde63"
 metafile = true
@@ -6509,7 +6514,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "cca4b10598ae8cedcc2a6531a422453d624ceb4d1de1163ce46255415ccda045"
+hash = "8eae737eb20a0488e9b57b6a59f0681d142732bcb22fc896ad4e5ff924ec5683"
 metafile = true
 
 [[files]]
