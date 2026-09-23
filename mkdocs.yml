@@ -12,7 +12,6 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   language: ru
-  custom_dir: overrides
   
   palette:
     # Light mode - Sky theme
