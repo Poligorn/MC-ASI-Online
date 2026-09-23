@@ -1,0 +1,146 @@
+site_name: Aeronautics Modpack Documentation
+site_description: Technical documentation for the Aeronautics + EVE Online mechanics modpack
+site_author: Your Team Name
+site_url: https://Poligorn.github.io/MC-ASI-Online/
+
+# Repository
+repo_name: Poligorn/MC-ASI-Online
+repo_url: https://github.com/poligorn/MC-ASI-Online
+edit_uri: edit/main/docs/
+
+# Theme configuration
+theme:
+  name: material
+  language: ru
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+
+  icon:
+    repo: fontawesome/brands/github
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Plugins
+plugins:
+  - search:
+      lang: 
+        - en
+        - ru
+  - tags
+
+# Navigation structure
+nav:
+  - Главная: index.md
+  - Начало работы:
+      - getting-started/index.md
+      - Установка: getting-started/installation.md
+      - Первый запуск: getting-started/first-launch.md
+      - Структура проекта: getting-started/project-structure.md
+  - Моды:
+      - mods/index.md
+      - Aeronautics: mods/aeronautics.md
+      - Кастомные моды: mods/custom-mods.md
+      - Список всех модов: mods/mod-list.md
+  - Механики:
+      - mechanics/index.md
+      - EVE Online интеграция: mechanics/eve-integration.md
+      - Экономика: mechanics/economy.md
+      - Космические корабли: mechanics/spaceships.md
+      - Добыча ресурсов: mechanics/mining.md
+  - Рецепты:
+      - recipes/index.md
+      - Базовые рецепты: recipes/basic.md
+      - Продвинутые рецепты: recipes/advanced.md
+      - Корабли: recipes/ships.md
+  - Конфигурация:
+      - config/index.md
+      - Серверные настройки: config/server.md
+      - Клиентские настройки: config/client.md
+      - Баланс: config/balance.md
+  - Разработка:
+      - development/index.md
+      - Как добавить мод: development/adding-mods.md
+      - Создание рецептов: development/creating-recipes.md
+      - Тестирование: development/testing.md
+      - Git workflow: development/git-workflow.md
+  - API:
+      - api/index.md
+      - Packwiz команды: api/packwiz.md
+
+# Extra configuration
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername/your-repo-name
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/your-server
+  version:
+    provider: mike
+
+# Copyright
+copyright: Copyright &copy; 2026 Your Team Name
