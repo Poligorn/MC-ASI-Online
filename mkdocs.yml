@@ -1,11 +1,11 @@
 site_name: Aeronautics Modpack Documentation
 site_description: Technical documentation for the Aeronautics + EVE Online mechanics modpack
 site_author: Your Team Name
-site_url: https://yourusername.github.io/your-repo-name/
+site_url: https://poligorn.github.io/MC-ASI-Online/
 
 # Repository
-repo_name: yourusername/your-repo-name
-repo_url: https://github.com/yourusername/your-repo-name
+repo_name: poligorn/MC-ASI-Online
+repo_url: https://github.com/poligorn/MC-ASI-Online
 edit_uri: edit/main/docs/
 
 # Theme configuration
