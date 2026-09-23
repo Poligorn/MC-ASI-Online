@@ -1,36 +1,45 @@
-site_name: Aeronautics Ikaria Docs
-site_description: Technical documentation for the Aeronautics Ikaria
+site_name: Aeronautics Ikaria
+site_description: Документация модпака Aeronautics Ikaria
 site_author: Ikaria Team
-site_url: https://Poligorn.github.io/MC-ASI-Online/
+site_url: https://poligorn.github.io/MC-ASI-Online/
 
 # Repository
-repo_name: Poligorn/MC-ASI-Online
-repo_url: https://github.com/poligorn/MC-ASI-Online
+repo_name: poligorn/MC-ASI-Online
+repo_url: https://poligorn.github.io/MC-ASI-Online/
 edit_uri: edit/main/docs/
 
-# Theme configuration
+# Theme
 theme:
   name: material
   language: ru
+  custom_dir: overrides
+  
   palette:
-    # Light mode
+    # Light mode - Sky theme
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: blue
+      primary: light blue
+      accent: pink
       toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    # Dark mode
+        icon: material/weather-sunny
+        name: Переключить на тёмную тему
+    
+    # Dark mode - Night sky
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: blue
+      primary: blue
+      accent: pink
       toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+        icon: material/weather-night
+        name: Переключить на светлую тему
+  
+  font:
+    text: Roboto
+    code: Courier New
   
   features:
+    - navigation.instant
+    - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
@@ -40,14 +49,20 @@ theme:
     - navigation.footer
     - search.suggest
     - search.highlight
+    - search.share
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
-
+  
   icon:
     repo: fontawesome/brands/github
+    logo: material/airplane
 
-# Extensions
+# Custom CSS
+extra_css:
+  - stylesheets/extra.css
+
+# Markdown Extensions
 markdown_extensions:
   - abbr
   - admonition
@@ -57,6 +72,7 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
+      title: На этой странице
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
@@ -89,58 +105,42 @@ markdown_extensions:
 plugins:
   - search:
       lang: 
-        - en
         - ru
+        - en
   - tags
 
-# Navigation structure
+# Navigation
 nav:
   - Главная: index.md
   - Начало работы:
       - getting-started/index.md
       - Установка: getting-started/installation.md
       - Первый запуск: getting-started/first-launch.md
-      - Структура проекта: getting-started/project-structure.md
   - Моды:
       - mods/index.md
+      - Список модов: mods/mod-list.md
       - Aeronautics: mods/aeronautics.md
-      - Кастомные моды: mods/custom-mods.md
-      - Список всех модов: mods/mod-list.md
   - Механики:
       - mechanics/index.md
-      - EVE Online интеграция: mechanics/eve-integration.md
-      - Экономика: mechanics/economy.md
-      - Космические корабли: mechanics/spaceships.md
-      - Добыча ресурсов: mechanics/mining.md
-  - Рецепты:
-      - recipes/index.md
-      - Базовые рецепты: recipes/basic.md
-      - Продвинутые рецепты: recipes/advanced.md
-      - Корабли: recipes/ships.md
-  - Конфигурация:
-      - config/index.md
-      - Серверные настройки: config/server.md
-      - Клиентские настройки: config/client.md
-      - Баланс: config/balance.md
-  - Разработка:
-      - development/index.md
-      - Как добавить мод: development/adding-mods.md
-      - Создание рецептов: development/creating-recipes.md
-      - Тестирование: development/testing.md
-      - Git workflow: development/git-workflow.md
-  - API:
-      - api/index.md
-      - Packwiz команды: api/packwiz.md
+      - Летающие острова: mechanics/flying-islands.md
+      - Воздушные корабли: mechanics/airships.md
+  - Гайды:
+      - guides/index.md
+      - Первые шаги: guides/getting-started-guide.md
 
-# Extra configuration
+# Extra
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/yourusername/your-repo-name
+      link: https://github.com/Poligorn/Aeronautics-SkyIslands-Modpack
+      name: GitHub
     - icon: fontawesome/brands/discord
-      link: https://discord.gg/your-server
-  version:
-    provider: mike
+      link: https://discord.gg/7zqnTUaDm2
+      name: Discord
+  
+  generator: false
 
 # Copyright
-copyright: Copyright &copy; 2026 Your Team Name
+copyright: |
+  Copyright &copy; 2026 Ikaria Team<br>
+  <small>🎈 Будущее имя: Aeronautics Ikaria</small>
