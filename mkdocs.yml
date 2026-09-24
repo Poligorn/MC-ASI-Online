@@ -1,44 +1,35 @@
 site_name: Aeronautics Ikaria
 site_description: Документация модпака Aeronautics Ikaria
 site_author: Ikaria Team
-site_url: https://poligorn.github.io/MC-ASI-Online/
 
-# Repository
-repo_name: poligorn/MC-ASI-Online
-repo_url: https://poligorn.github.io/MC-ASI-Online/
+# Replace with the real repository values.
+site_url: https://YOUR_USER.github.io/YOUR_REPOSITORY/
+repo_name: YOUR_USER/YOUR_REPOSITORY
+repo_url: https://github.com/YOUR_USER/YOUR_REPOSITORY
 edit_uri: edit/main/docs/
 
-# Theme
 theme:
   name: material
   language: ru
-  
+  font: false
+  favicon: assets/favicon.png
+  logo: assets/logo.png
   palette:
-    # Light mode - Sky theme
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: light blue
-      accent: pink
-      toggle:
-        icon: material/weather-sunny
-        name: Переключить на тёмную тему
-    
-    # Dark mode - Night sky
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: blue
-      accent: pink
+      primary: white
+      accent: light blue
       toggle:
         icon: material/weather-night
-        name: Переключить на светлую тему
-  
-  font:
-    text: Roboto
-    code: Courier New
-  
+        name: Ночная тема
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Дневная тема
   features:
-    - navigation.instant
-    - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
@@ -48,98 +39,94 @@ theme:
     - navigation.footer
     - search.suggest
     - search.highlight
-    - search.share
     - content.code.copy
-    - content.code.annotate
     - content.tabs.link
-  
-  icon:
-    repo: fontawesome/brands/github
-    logo: material/airplane
 
-# Custom CSS
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/ikaria.css
 
-# Markdown Extensions
 markdown_extensions:
-  - abbr
   - admonition
   - attr_list
-  - def_list
-  - footnotes
   - md_in_html
+  - tables
   - toc:
       permalink: true
-      title: На этой странице
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
   - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight
+  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
-  - pymdownx.tilde
 
-# Plugins
 plugins:
   - search:
-      lang: 
+      lang:
         - ru
         - en
-  - tags
 
-# Navigation
 nav:
-  - Главная: index.md
-  - Начало работы:
-      - getting-started/index.md
-      - Установка: getting-started/installation.md
-      - Первый запуск: getting-started/first-launch.md
+  - Обзор:
+      - index.md
+      - Концепция: overview/concept.md
+      - Как читать документацию: overview/reading-docs.md
+  - Старт:
+      - start/index.md
+      - Установка: start/installation.md
+      - Первый игровой цикл: start/first-session.md
+      - Прогрессия: start/progression.md
+      - FTB Quests: start/quests.md
+  - Мир и путешествия:
+      - world/index.md
+      - Небесные острова: world/sky-islands.md
+      - Корабли: world/ships.md
+      - Маршруты и станции: world/routes-and-stations.md
+      - Вормхолы и порталы: world/wormholes.md
+  - Механики:
+      - systems/index.md
+      - Рынок: systems/economy/market.md
+      - P2P-курьеры: systems/economy/courier-contracts.md
+      - Валюта и комиссии: systems/economy/currency-and-taxes.md
+      - Чертежи: systems/industry/blueprints.md
+      - Новые тиры: systems/industry/new-tier-crafting.md
+      - Зачарование: systems/industry/enchanting.md
   - Моды:
       - mods/index.md
-      - Список модов: mods/mod-list.md
+      - Каталог модов: mods/catalog.md
       - Aeronautics: mods/aeronautics.md
-  - Механики:
-      - mechanics/index.md
-      - Летающие острова: mechanics/flying-islands.md
-      - Воздушные корабли: mechanics/airships.md
-  - Гайды:
-      - guides/index.md
-      - Первые шаги: guides/getting-started-guide.md
+      - Create: mods/create.md
+      - FTB Quests: mods/ftb-quests.md
+      - Собственные моды: mods/custom/index.md
+  - Дневники:
+      - journals/index.md
+      - Дневник инженера: journals/create-diary.md
+      - Журнал пилота: journals/aeronautics-diary.md
+      - Записки искателя: journals/adventure-diary.md
+  - Справочник EVE:
+      - eve-reference/index.md
+      - Глоссарий: eve-reference/glossary.md
+      - Рынок: eve-reference/market.md
+      - Вормхоллы: eve-reference/wormhole-space.md
+      - Курьеры и контракты: eve-reference/hauling-and-contracts.md
+      - Корабли и роли: eve-reference/ships-and-roles.md
+      - Индустрия и исследования: eve-reference/industry-and-research.md
+  - Разработка:
+      - development/index.md
+      - Реестр модов: development/mod-registry.md
+      - Конфигурация: development/configuration.md
+      - Рецепты и датапаки: development/recipes-and-datapacks.md
+      - Авторинг квестов: development/quest-authoring.md
+      - Баланс: development/balance.md
+      - Тестирование: development/testing.md
+      - Changelog: development/changelog.md
 
-# Extra
 extra:
+  generator: false
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/Poligorn/Aeronautics-SkyIslands-Modpack
-      name: GitHub
+      link: https://github.com/YOUR_USER/YOUR_REPOSITORY
     - icon: fontawesome/brands/discord
-      link: https://discord.gg/7zqnTUaDm2
-      name: Discord
-  
-  generator: false
+      link: https://discord.gg/YOUR_INVITE
 
-# Copyright
-copyright: |
-  Copyright &copy; 2026 Ikaria Team<br>
-  <small>🎈 Будущее имя: Aeronautics Ikaria</small>
+copyright: Copyright &copy; 2026 Ikaria Team
